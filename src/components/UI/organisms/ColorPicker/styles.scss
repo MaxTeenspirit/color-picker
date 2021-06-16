@@ -1,0 +1,7 @@
+@import 'src/helpers/pxrem';
+
+.color-picker {
+  display: inline-flex;
+  border: rem(2) solid #909090;
+  border-radius: rem(4);
+}

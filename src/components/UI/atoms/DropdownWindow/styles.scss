@@ -1,0 +1,23 @@
+@import '../../../../helpers/pxrem.scss';
+
+.dropdown-window {
+  position: absolute;
+  top: rem(58);
+  left: 50%;
+  transform: translate(-50%, 0);
+  box-shadow: rem(-5) rem(10) rem(18) rem(5) rgba(0,0,0,0.25);
+  background-color: white;
+  border-radius: rem(4);
+
+  .dropdown-window-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: rem(-15);
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-left: rem(15) solid transparent;
+    border-right: rem(15) solid transparent;
+    border-bottom: rem(15) solid white;
+  }
+}

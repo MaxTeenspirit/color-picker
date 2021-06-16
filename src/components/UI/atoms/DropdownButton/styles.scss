@@ -5,9 +5,12 @@
   justify-content: center;
   align-items: center;
   width: rem(50);
+  height: 100%;
   border: none;
-  background-color: transparent;
   cursor: pointer;
+  background-color: white;
+  border-top-right-radius: rem(3);
+  border-bottom-right-radius: rem(3);
 
   .arrow-icon {
     width: rem(15);

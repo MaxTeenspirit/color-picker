@@ -1,0 +1,22 @@
+@import '../../../../helpers/pxrem.scss';
+
+.color-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: rem(8) rem(15);
+  color: #909090;
+  min-width: rem(180);
+  cursor: pointer;
+  border-radius: rem(4);
+
+  &:hover {
+    background-color: #3376BB;
+    color: #d2d2d2;
+  }
+
+  .color-item-mark {
+    width: rem(15);
+    height: rem(15);
+  }
+}
