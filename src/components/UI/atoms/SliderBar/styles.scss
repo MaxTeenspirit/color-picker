@@ -1,0 +1,12 @@
+@import '../../../../helpers/pxrem.scss';
+
+.slider-wrapper {
+  display: flex;
+  width: rem(200);
+  padding: rem(15) rem(18);
+  .label {
+    margin-right: rem(15);
+    line-height: rem(15);
+    color: #909090;
+  }
+}

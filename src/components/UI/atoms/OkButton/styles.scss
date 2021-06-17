@@ -1,0 +1,11 @@
+@import '../../../../helpers/pxrem.scss';
+
+.ok-button {
+  background-color: #00c3af;
+  padding: rem(10) rem(15);
+  border: rem(1) solid #909090;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+

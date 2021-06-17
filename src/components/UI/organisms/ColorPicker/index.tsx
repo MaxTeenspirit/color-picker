@@ -7,7 +7,7 @@ import {Color} from "../../../../types";
 const ColorPicker = ({value, onChange, colors}: Props) => (
     <div className="color-picker">
       <ValueBox value={value} />
-      <ColorBox value={value} />
+      <ColorBox onChange={onChange} value={value} />
       <DropdownBox onChange={onChange} colors={colors} />
     </div>
 );

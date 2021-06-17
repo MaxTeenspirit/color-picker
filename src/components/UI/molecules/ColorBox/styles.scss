@@ -2,4 +2,12 @@
 
 .color-box {
   position: relative;
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .button-wrapper {
+      margin: rem(15) 0 rem(15) rem(15);
+    }
+  }
 }

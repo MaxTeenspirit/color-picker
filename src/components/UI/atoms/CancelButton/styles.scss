@@ -1,0 +1,16 @@
+@import '../../../../helpers/pxrem.scss';
+
+.cancel-button {
+  background-color: white;
+  padding: rem(10) rem(15);
+  border: rem(1) solid #909090;
+  color: #909090;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: #e0e0e0;
+    color: #909090;
+    cursor: auto;
+  }
+}
