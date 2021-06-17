@@ -4,6 +4,28 @@
   display: flex;
   width: rem(200);
   padding: rem(15) rem(18);
+
+  .rc-slider-handle {
+    background-color: #c2c2c2;
+    border: none;
+  }
+
+  &.R {
+    .rc-slider-step {
+      background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(255,0,0,1) 70%);
+    }
+  }
+  &.G {
+    .rc-slider-step {
+      background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(0,255,0,1) 70%);
+    }
+  }
+  &.B {
+    .rc-slider-step {
+      background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(0,0,255,1) 100%);
+    }
+  }
+
   .label {
     margin-right: rem(15);
     line-height: rem(15);

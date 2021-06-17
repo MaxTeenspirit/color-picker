@@ -9,7 +9,7 @@ const SliderBar = (
       onChange,
     }: Props) => {
   return (
-      <div className="slider-wrapper">
+      <div className={`slider-wrapper ${label}`}>
         <p className="label">{label}</p>
         <Slider
             min={0}
